@@ -1,4 +1,4 @@
-# 🚨 UrgentX Flow  
+# 🚨 CivicResq Flow  
 ### AI-Native Crisis Response & Smart Resource Allocation System  
 
 A scalable, AI-powered emergency response platform that enables real-time crisis reporting, intelligent prioritization, and efficient resource allocation across citizens, responders, and administrators.
@@ -19,7 +19,7 @@ In emergency situations, delays in reporting, lack of coordination, and ineffici
 
 ## 💡 Solution  
 
-** UrgentX Flow ** is an AI-driven platform that:
+** CivicResq Flow ** is an AI-driven platform that:
 
 - Enables instant reporting of emergencies  
 - Uses AI to classify and prioritize incidents  
