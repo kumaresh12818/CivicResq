@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: civicresq-unified
+    env: python
+    buildCommand: "chmod +x build.sh && ./build.sh"
+    startCommand: "cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
+      - key: NODE_VERSION
+        value: 18.17.0
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: NEXT_PUBLIC_FIREBASE_API_KEY
+        sync: false
+      - key: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+        value: "civicresq.firebaseapp.com"
+      - key: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+        value: "civicresq"
+      - key: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+        value: "civicresq.firebasestorage.app"
+      - key: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+        value: "863423760552"
+      - key: NEXT_PUBLIC_FIREBASE_APP_ID
+        value: "1:863423760552:web:015ec6a84949c88874da9d"
+      - key: NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
+        value: "G-4L5H56M6V2"
