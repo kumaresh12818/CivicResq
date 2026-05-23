@@ -1,14 +1,10 @@
-# 🚨 CivicResQ Flow  
+# 🚨 UrgentX Flow  
 ### AI-Native Crisis Response & Smart Resource Allocation System  
 
 A scalable, AI-powered emergency response platform that enables real-time crisis reporting, intelligent prioritization, and efficient resource allocation across citizens, responders, and administrators.
 
 ---
 
-## 🌐 Live Demo  
-🔗 https://civicresq-fdtv.onrender.com/
-
----
 
 ## 📌 Problem Statement  
 
@@ -23,7 +19,7 @@ In emergency situations, delays in reporting, lack of coordination, and ineffici
 
 ## 💡 Solution  
 
-**CivicResQ Flow** is an AI-driven platform that:
+** UrgentX Flow ** is an AI-driven platform that:
 
 - Enables instant reporting of emergencies  
 - Uses AI to classify and prioritize incidents  
@@ -80,10 +76,7 @@ In emergency situations, delays in reporting, lack of coordination, and ineffici
 
 ### 🤖 AI / ML *(Planned / Extendable)*  
 - Python (FastAPI)  
-- TensorFlow / Scikit-learn  
-
-### ☁️ Deployment  
-- Render / Vercel  
+- TensorFlow / Scikit-learn / Trae.AI 
 
 ---
 
@@ -199,8 +192,8 @@ Responder & Admin Dashboards
 ## 📂 Project Setup  
 
 ```bash
-git clone https://github.com/your-username/civicresq.git
-cd civicresq
+git clone https://github.com/kumaresh12818/UrgentX.git
+cd UrgentX
 npm install
 npm run dev
 ```
@@ -222,8 +215,11 @@ This project is licensed under the **MIT License**
 
 ## 👨‍💻 Author  
 
-**Debosmita Banerjee**  
+**DEBOSMITA BANERJEE**  
 B.Tech CSE (AIML) | AI & Full-Stack Developer  
+
+**KUMARESH PRADHAN**  
+B.Tech CSE (AIML) | AI & Full-Stack Developer 
 
 ---
 
